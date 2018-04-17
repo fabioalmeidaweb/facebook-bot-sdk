@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.1"
@@ -19,5 +20,9 @@
         "psr-4": {
             "CodeBot\\": "src"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "coverage": "vendor/bin/phpunit --coverage-text"
     }
 }
