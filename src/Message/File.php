@@ -1,7 +1,7 @@
 <?php
 namespace CodeBot\Message;
 
-class Text implements Message
+class File implements Message
 {
     private $recipientId;
 
@@ -16,8 +16,12 @@ class Text implements Message
                 'id' => $this->recipientId
             ],
             'message' => [
-                'text' => 'hello',
-                'metaadata' => 'DEVELOPER_DEFINED_METADATA'
+                'attachment' => [
+                    'type' => 'file',
+                    'payload' => [
+                        'url' => $messageText
+                    ]
+                ]
             ]
         ];
     }
