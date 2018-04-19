@@ -1,7 +1,7 @@
 <?php
 namespace Codebot;
 
-use Guzzle\Client;
+use GuzzleHttp\Client;
 
 class CallSendApi
 {
