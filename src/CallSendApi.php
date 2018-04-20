@@ -1,5 +1,5 @@
 <?php
-namespace Codebot;
+namespace CodeBot;
 
 use GuzzleHttp\Client;
 
