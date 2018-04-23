@@ -1,0 +1,6 @@
+php:
+  container_name: fb-php
+  build: ./.docker/site
+  volumes:
+    - .:/var/www/sdk
+    - ./.docker/site/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
