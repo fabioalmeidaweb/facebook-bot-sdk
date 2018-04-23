@@ -9,7 +9,7 @@ private $recipientId;
     {
         $this->recipientId = $recipientId;
     }
-    public function message(string $messagetext) :array
+    public function message(string $messageText) :array
     {
         return  [
             'recipient' => [
