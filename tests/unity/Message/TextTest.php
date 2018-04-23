@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class TextTest extends TestCase
 {
-    public function testRetornaUmArray()
+    public function testReturnAnArray()
     {
         $actual = (new Text(1))->message('hello');
 
@@ -15,7 +15,7 @@ class TextTest extends TestCase
             ],
             'message' => [
                 'text' => 'hello',
-                'metaadata' => 'DEVELOPER_DEFINED_METADATA'
+                'metadata' => 'DEVELOPER_DEFINED_METADATA'
             ]
         ];
 
