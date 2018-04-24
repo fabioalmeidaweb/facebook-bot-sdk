@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4926020c-ef05-4bc3-92a4-c8ed0a9fc70c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Element/Button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Element/ElementInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/facebook-bot-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/facebook-bot-sdk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unity/Message/FileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unity/Message/FileTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,16 +18,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ButtonsTemplate.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="1092">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonsTemplateTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <folding>
+                <element signature="e#44#75#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,7 +55,12 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.docker/site/Dockerfile" />
         <option value="$PROJECT_DIR$/src/ButtonsTemplate.php" />
+        <option value="$PROJECT_DIR$/src/Element/ElementInterface.php" />
+        <option value="$PROJECT_DIR$/tests/unity/Message/FileTest.php" />
+        <option value="$PROJECT_DIR$/tests/integration/ButtonsTemplateTest.php" />
+        <option value="$PROJECT_DIR$/src/Element/Button.php" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" />
+        <option value="$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php" />
       </list>
     </option>
   </component>
@@ -49,6 +72,43 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -80,7 +140,50 @@
               <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TemplatesMessage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplatesMessage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebook-bot-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebook-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unity" type="462c0819:PsiDirectoryNode" />
+              <item name="Message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,11 +194,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\facebook-bot-sdk\src\Element" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\facebook-bot-sdk\tests\integration\TemplatesMessage" />
       <recent name="D:\projects\facebook-bot-sdk\src\TemplatesMessage" />
     </key>
   </component>
@@ -121,12 +230,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524501429877</updated>
-      <workItem from="1524501431189" duration="2058000" />
+      <workItem from="1524501431189" duration="2695000" />
+      <workItem from="1524505757359" duration="678000" />
+      <workItem from="1524507278976" duration="3214000" />
+      <workItem from="1524583186377" duration="6113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2058000" />
+    <option name="totallyTimeSpent" value="12700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -161,8 +273,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.docker/site/chatbot-site.conf">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.docker/site/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -192,10 +332,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/ElementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="27">
+          <caret line="22" column="52" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unity/Message/FileTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="e#44#75#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

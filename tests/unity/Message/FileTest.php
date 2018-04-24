@@ -17,7 +17,7 @@ class FileTest extends TestCase
                 'attachment' => [
                     'type' => 'file',
                     'payload' => [
-                        'url' => $messageText
+                        'url' => 'hello'
                     ]
                 ]
             ]
