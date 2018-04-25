@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4926020c-ef05-4bc3-92a4-c8ed0a9fc70c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Element/Button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Element/ElementInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/facebook-bot-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/facebook-bot-sdk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unity/Message/FileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unity/Message/FileTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,22 +19,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
+      <file leaf-file-name="ButtonsTemplate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="78">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonsTemplateTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php">
+      <file leaf-file-name="TemplateInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="260">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <element signature="e#44#75#0#PHP" expanded="true" />
+                <element signature="e#44#72#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +55,10 @@
         <option value="$PROJECT_DIR$/tests/unity/Message/FileTest.php" />
         <option value="$PROJECT_DIR$/tests/integration/ButtonsTemplateTest.php" />
         <option value="$PROJECT_DIR$/src/Element/Button.php" />
-        <option value="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" />
         <option value="$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" />
       </list>
     </option>
   </component>
@@ -120,7 +118,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,23 +187,46 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="TemplatesMessage" type="cbb8eebc:String" user="TemplatesMessage" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="open recent&#9;ACTION&#9;$LRU" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\facebook-bot-sdk\src\Element" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\facebook-bot-sdk\tests\integration\TemplatesMessage" />
       <recent name="D:\projects\facebook-bot-sdk\src\TemplatesMessage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\facebook-bot-sdk\src\TemplatesMessage" />
+      <recent name="D:\projects\facebook-bot-sdk\src\Element" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,12 +254,13 @@
       <workItem from="1524501431189" duration="2695000" />
       <workItem from="1524505757359" duration="678000" />
       <workItem from="1524507278976" duration="3214000" />
-      <workItem from="1524583186377" duration="6113000" />
+      <workItem from="1524583186377" duration="7655000" />
+      <workItem from="1524655019757" duration="873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12700000" />
+    <option name="totallyTimeSpent" value="15115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -251,7 +273,7 @@
       <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.43899783" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.43889478" />
       <window_info id="Structure" order="2" sideWeight="0.5017241" side_tool="true" weight="0.18443497" />
       <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.36769393" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
@@ -273,13 +295,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#44#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,20 +389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="22" column="52" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -379,11 +405,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ButtonsTemplateTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="217">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding>
             <element signature="e#44#75#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
