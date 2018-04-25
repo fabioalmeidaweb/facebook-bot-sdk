@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4926020c-ef05-4bc3-92a4-c8ed0a9fc70c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,23 +22,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ButtonsTemplate.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ButtonsTemplate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="365">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php">
+      <file leaf-file-name="GenericTemplate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#44#72#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="754">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTemplate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiptTemplate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+              <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+              <caret line="105" column="82" selection-start-line="105" selection-start-column="82" selection-end-line="105" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -59,6 +79,9 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php" />
       </list>
     </option>
   </component>
@@ -255,12 +278,12 @@
       <workItem from="1524505757359" duration="678000" />
       <workItem from="1524507278976" duration="3214000" />
       <workItem from="1524583186377" duration="7655000" />
-      <workItem from="1524655019757" duration="873000" />
+      <workItem from="1524655019757" duration="4968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15115000" />
+    <option name="totallyTimeSpent" value="19210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -432,8 +455,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="365">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+          <caret line="105" column="82" selection-start-line="105" selection-start-column="82" selection-end-line="105" selection-end-column="82" />
         </state>
       </provider>
     </entry>
