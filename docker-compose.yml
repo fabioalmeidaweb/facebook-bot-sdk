@@ -4,3 +4,7 @@ php:
   volumes:
     - .:/var/www/sdk
     - ./.docker/site/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    - ./.docker/site/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+  environment:
+    XDEBUG_CONFIG: remote_host=172.17.0.1
+    PHP_IDE_CONFIG: "serverName=xdebug-docker"

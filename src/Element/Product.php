@@ -10,7 +10,7 @@ class Product implements ElementInterface
     private $default_action;
     private $buttons;
 
-    public function __construct(string $title, ? string $image_url = null, $subtitle = null, Button $default_action)
+    public function __construct(string $title, ? string $image_url = null, ? string $subtitle = null, Button $default_action)
     {
         $this->title = $title;
         $this->image_url = $image_url;
@@ -46,6 +46,6 @@ class Product implements ElementInterface
             $result['image_url'] = $this->image_url;
         }
 
-        return [];
+        return $result;
     }
 }

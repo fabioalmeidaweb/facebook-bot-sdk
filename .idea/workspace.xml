@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php" line="59" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4926020c-ef05-4bc3-92a4-c8ed0a9fc70c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Element/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/site/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Element/ProductOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/site/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/site/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Element/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Element/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,56 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ButtonsTemplate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
+      <file leaf-file-name="GenericTemplateTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="38" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="197">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="57" selection-end-column="48" />
+              <folding>
+                <element signature="e#44#71#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericTemplate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
+      <file leaf-file-name="ListTemplateTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="104">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <folding>
+                <element signature="e#134#161#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTemplate.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListTemplate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReceiptTemplate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Message/Image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Element/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+            <state relative-caret-position="211">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -79,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/.docker/site/Dockerfile" />
         <option value="$PROJECT_DIR$/src/ButtonsTemplate.php" />
         <option value="$PROJECT_DIR$/src/Element/ElementInterface.php" />
         <option value="$PROJECT_DIR$/tests/unity/Message/FileTest.php" />
@@ -90,11 +77,18 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/TemplateInterface.php" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php" />
-        <option value="$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php" />
-        <option value="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" />
         <option value="$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php" />
         <option value="$PROJECT_DIR$/src/Message/Image.php" />
+        <option value="$PROJECT_DIR$/src/Element/ProductOrder.php" />
+        <option value="$USER_HOME$/.ssh/config" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php" />
         <option value="$PROJECT_DIR$/src/Element/Product.php" />
+        <option value="$PROJECT_DIR$/.docker/site/xdebug.ini" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.docker/site/Dockerfile" />
+        <option value="$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php" />
+        <option value="$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php" />
+        <option value="$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php" />
       </list>
     </option>
   </component>
@@ -106,6 +100,15 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="67452ed8-b703-434c-a9e7-1d6038ffc397" name="xdebug-docker" port="9000">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/phpunit.xml" remote-root="D:/projects/facebook-bot-sdk/phpunit.xml" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -158,40 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="Element" type="cbb8eebc:String" user="Element" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="Message" type="cbb8eebc:String" user="Message" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="TemplatesMessage" type="cbb8eebc:String" user="TemplatesMessage" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,15 +226,78 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name=".docker" type="cbb8eebc:String" user=".docker" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name=".docker" type="cbb8eebc:String" user=".docker" />
+              <item name="site" type="cbb8eebc:String" user="site" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Element" type="cbb8eebc:String" user="Element" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Message" type="cbb8eebc:String" user="Message" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="TemplatesMessage" type="cbb8eebc:String" user="TemplatesMessage" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+              <item name="integration" type="cbb8eebc:String" user="integration" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="facebook-bot-sdk" type="cbb8eebc:String" user="facebook-bot-sdk" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+              <item name="integration" type="cbb8eebc:String" user="integration" />
+              <item name="TemplatesMessage" type="cbb8eebc:String" user="TemplatesMessage" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="constr&#9;ACTION&#9;PhpGenerateConstructor&#10;open recent&#9;ACTION&#9;$LRU" />
+    <property name="SearchEverywhereHistoryKey" value="list&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/src/TemplatesMessage/ListTemplate.php&#10;dockerco&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/docker-compose.yml&#10;do&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/.docker/site/Dockerfile&#10;butt&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/src/Element/Button.php&#10;Pro&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/src/Element/Product.php&#10;gene&#9;FILE&#9;file://D:/projects/facebook-bot-sdk/src/TemplatesMessage/GenericTemplate.php&#10;settings&#9;ACTION&#9;ShowSettings&#10;constr&#9;ACTION&#9;PhpGenerateConstructor&#10;open recent&#9;ACTION&#9;$LRU" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -273,6 +305,7 @@
       <recent name="D:\projects\facebook-bot-sdk\src\TemplatesMessage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\facebook-bot-sdk\.docker\site" />
       <recent name="D:\projects\facebook-bot-sdk\src\TemplatesMessage" />
       <recent name="D:\projects\facebook-bot-sdk\src\Element" />
     </key>
@@ -288,6 +321,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ListTemplateTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CodeBot\TemplatesMessage\ListTemplateTest" file="$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php" scope="Class" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ListTemplateTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -307,18 +350,19 @@
       <workItem from="1524673331005" duration="1819000" />
       <workItem from="1524742921379" duration="1331000" />
       <workItem from="1525439014645" duration="240000" />
-      <workItem from="1526299010202" duration="561000" />
+      <workItem from="1526299010202" duration="14813000" />
+      <workItem from="1526563113521" duration="7814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23161000" />
+    <option name="totallyTimeSpent" value="45227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49827588" visible="true" weight="0.184375" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49827588" weight="0.184375" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32943678" />
@@ -327,7 +371,7 @@
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.43889478" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info id="Structure" order="2" sideWeight="0.5017241" side_tool="true" weight="0.18443497" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.36769393" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.36556855" />
       <window_info id="Favorites" order="0" sideWeight="0.5017241" side_tool="true" weight="0.18443497" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -346,7 +390,39 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#44#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#134#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ButtonsTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
@@ -510,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/site/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Message/Text.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -542,20 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Element/ElementInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -587,20 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ReceiptTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -615,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -629,10 +663,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/ElementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/ProductOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ssh/key_fabio.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ssh/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Element/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/GenericTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/site/xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/site/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Element/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        <state relative-caret-position="1300">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/GenericTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="e#44#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/TemplatesMessage/ListTemplateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="e#134#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplatesMessage/ListTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
         </state>
       </provider>
     </entry>
