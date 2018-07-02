@@ -12,6 +12,7 @@ class GenericTemplateTest extends TestCase
     {
         $button = new Button('web_url', null, 'https://google.com');
         $product = new Product('Product 1', 'http://www.twccomunicacao.com.br/restrito/img/noticias/2016/04/wb_moc_post-4-dicas-matadoras-para-vender-produtos-afiliados-600x600_011.png', 'A awesome product!', $button);
+
         $button2 = new Button('web_url', null, 'https://google.com');
         $product2 = new Product('Product 2', 'http://www.twccomunicacao.com.br/restrito/img/noticias/2016/04/wb_moc_post-4-dicas-matadoras-para-vender-produtos-afiliados-600x600_011.png', 'A awesome course!', $button2);
 
