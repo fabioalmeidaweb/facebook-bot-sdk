@@ -7,7 +7,7 @@ class Bot
     private $senderId;
     private $pageAccessToken;
 
-    public function getSender(string $senderId)
+    public function setSender(string $senderId)
     {
         $this->senderId = $senderId;
         return $this;
@@ -83,7 +83,7 @@ class Bot
         return new $class($this->senderId);
     }
 
-    private function callSendApi(array $message, string $url = null, $method = 'POST')
+    private function callSendApi(array $message, string $url = null, $method = 'POST') :string
     {
         $callSendApi = new CallSendApi($this->pageAccessToken);
         return $callSendApi->make($message, $url, $method);

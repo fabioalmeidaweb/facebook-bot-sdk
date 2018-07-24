@@ -2,9 +2,8 @@
 
 namespace CodeBot;
 
-
-use CodeBot\Build\Solid;
 use PHPUnit\Framework\TestCase;
+use CodeBot\Build\Solid;
 
 class BotTest extends TestCase
 {
@@ -12,6 +11,7 @@ class BotTest extends TestCase
 
     public function testAddMenu()
     {
+
         $call_to_actions = [
             [
                 'id' => 1,
@@ -42,12 +42,12 @@ class BotTest extends TestCase
                 'value' => 'iniciar',
             ],
         ];
-        
+
         $bot = Solid::factory();
         Solid::pageAccessToken($this->pageAccessToken);
         $bot->addMenu('default', false, $call_to_actions);
 
-        $this->assertTrue(true);
+        $this->AssertTrue(true);
     }
 
     public function testRemoveMenu()
@@ -56,7 +56,7 @@ class BotTest extends TestCase
         Solid::pageAccessToken($this->pageAccessToken);
         $bot->removeMenu();
 
-        $this->assertTrue(true);
+        $this->AssertTrue(true);
     }
 
     public function testAddGetStartedButton()
